@@ -1,0 +1,339 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Grad-CAM++ Report</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                padding: 40px;
+                background-color: #f9f9f9;
+                color: #333;
+            }
+            .entry {
+                background-color: #fff;
+                border: 1px solid #ddd;
+                border-radius: 10px;
+                padding: 20px;
+                margin-bottom: 40px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            }
+            .entry img {
+                max-width: 100%;
+                border-radius: 6px;
+                margin-top: 10px;
+                margin-bottom: 20px;
+            }
+            .entry h2 {
+                font-size: 18px;
+                margin-bottom: 10px;
+                color: #007acc;
+            }
+            .entry pre {
+                background-color: #f1f1f1;
+                padding: 10px;
+                border-radius: 5px;
+                overflow-x: auto;
+                font-size: 14px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Grad-CAM++ Visual Explanations</h1>
+        <p>Total Samples: 32</p>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_0_pred2_true2.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_0_pred2_true2.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Obstructive' | Ground truth: 'Obstructive'
+🔍 Model attention focused in the **middle-left** region of the spectrogram.
+📌 This focus likely highlights **prolonged expiratory airflow**, suggestive of wheezing or airway narrowing — characteristics of obstructive lung diseases such as **COPD** or **asthma**.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_1_pred2_true2.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_1_pred2_true2.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Obstructive' | Ground truth: 'Obstructive'
+🔍 Model attention focused in the **lower-left** region of the spectrogram.
+📌 This focus likely highlights **prolonged expiratory airflow**, suggestive of wheezing or airway narrowing — characteristics of obstructive lung diseases such as **COPD** or **asthma**.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_2_pred2_true2.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_2_pred2_true2.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Obstructive' | Ground truth: 'Obstructive'
+🔍 Model attention focused in the **lower-left** region of the spectrogram.
+📌 This focus likely highlights **prolonged expiratory airflow**, suggestive of wheezing or airway narrowing — characteristics of obstructive lung diseases such as **COPD** or **asthma**.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_3_pred2_true2.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_3_pred2_true2.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Obstructive' | Ground truth: 'Obstructive'
+🔍 Model attention focused in the **lower-left** region of the spectrogram.
+📌 This focus likely highlights **prolonged expiratory airflow**, suggestive of wheezing or airway narrowing — characteristics of obstructive lung diseases such as **COPD** or **asthma**.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_4_pred2_true2.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_4_pred2_true2.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Obstructive' | Ground truth: 'Obstructive'
+🔍 Model attention focused in the **lower-left** region of the spectrogram.
+📌 This focus likely highlights **prolonged expiratory airflow**, suggestive of wheezing or airway narrowing — characteristics of obstructive lung diseases such as **COPD** or **asthma**.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_5_pred2_true2.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_5_pred2_true2.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Obstructive' | Ground truth: 'Obstructive'
+🔍 Model attention focused in the **lower-left** region of the spectrogram.
+📌 This focus likely highlights **prolonged expiratory airflow**, suggestive of wheezing or airway narrowing — characteristics of obstructive lung diseases such as **COPD** or **asthma**.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_6_pred2_true2.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_6_pred2_true2.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Obstructive' | Ground truth: 'Obstructive'
+🔍 Model attention focused in the **middle-left** region of the spectrogram.
+📌 This focus likely highlights **prolonged expiratory airflow**, suggestive of wheezing or airway narrowing — characteristics of obstructive lung diseases such as **COPD** or **asthma**.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_7_pred1_true0.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_7_pred1_true0.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Infectious' | Ground truth: 'Healthy'
+🔍 Model attention focused in the **middle-left** region of the spectrogram.
+⚠️ The heatmap suggests **non-specific or ambiguous focus**. Further manual review might be warranted.
+❗ Prediction **does not match** ground truth — possible borderline or misclassified case.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_8_pred2_true2.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_8_pred2_true2.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Obstructive' | Ground truth: 'Obstructive'
+🔍 Model attention focused in the **lower-left** region of the spectrogram.
+📌 This focus likely highlights **prolonged expiratory airflow**, suggestive of wheezing or airway narrowing — characteristics of obstructive lung diseases such as **COPD** or **asthma**.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_9_pred2_true2.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_9_pred2_true2.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Obstructive' | Ground truth: 'Obstructive'
+🔍 Model attention focused in the **middle-left** region of the spectrogram.
+📌 This focus likely highlights **prolonged expiratory airflow**, suggestive of wheezing or airway narrowing — characteristics of obstructive lung diseases such as **COPD** or **asthma**.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_10_pred2_true2.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_10_pred2_true2.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Obstructive' | Ground truth: 'Obstructive'
+🔍 Model attention focused in the **lower-right** region of the spectrogram.
+📌 This focus likely highlights **prolonged expiratory airflow**, suggestive of wheezing or airway narrowing — characteristics of obstructive lung diseases such as **COPD** or **asthma**.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_11_pred2_true2.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_11_pred2_true2.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Obstructive' | Ground truth: 'Obstructive'
+🔍 Model attention focused in the **lower-left** region of the spectrogram.
+📌 This focus likely highlights **prolonged expiratory airflow**, suggestive of wheezing or airway narrowing — characteristics of obstructive lung diseases such as **COPD** or **asthma**.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_12_pred2_true2.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_12_pred2_true2.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Obstructive' | Ground truth: 'Obstructive'
+🔍 Model attention focused in the **lower-right** region of the spectrogram.
+📌 This focus likely highlights **prolonged expiratory airflow**, suggestive of wheezing or airway narrowing — characteristics of obstructive lung diseases such as **COPD** or **asthma**.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_13_pred2_true2.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_13_pred2_true2.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Obstructive' | Ground truth: 'Obstructive'
+🔍 Model attention focused in the **lower-center** region of the spectrogram.
+📌 This focus likely highlights **prolonged expiratory airflow**, suggestive of wheezing or airway narrowing — characteristics of obstructive lung diseases such as **COPD** or **asthma**.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_14_pred2_true2.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_14_pred2_true2.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Obstructive' | Ground truth: 'Obstructive'
+🔍 Model attention focused in the **middle-left** region of the spectrogram.
+📌 This focus likely highlights **prolonged expiratory airflow**, suggestive of wheezing or airway narrowing — characteristics of obstructive lung diseases such as **COPD** or **asthma**.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_15_pred2_true2.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_15_pred2_true2.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Obstructive' | Ground truth: 'Obstructive'
+🔍 Model attention focused in the **lower-left** region of the spectrogram.
+📌 This focus likely highlights **prolonged expiratory airflow**, suggestive of wheezing or airway narrowing — characteristics of obstructive lung diseases such as **COPD** or **asthma**.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_16_pred2_true2.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_16_pred2_true2.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Obstructive' | Ground truth: 'Obstructive'
+🔍 Model attention focused in the **lower-left** region of the spectrogram.
+📌 This focus likely highlights **prolonged expiratory airflow**, suggestive of wheezing or airway narrowing — characteristics of obstructive lung diseases such as **COPD** or **asthma**.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_17_pred1_true1.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_17_pred1_true1.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Infectious' | Ground truth: 'Infectious'
+🔍 Model attention focused in the **middle-left** region of the spectrogram.
+⚠️ The heatmap suggests **non-specific or ambiguous focus**. Further manual review might be warranted.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_18_pred1_true2.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_18_pred1_true2.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Infectious' | Ground truth: 'Obstructive'
+🔍 Model attention focused in the **middle-left** region of the spectrogram.
+⚠️ The heatmap suggests **non-specific or ambiguous focus**. Further manual review might be warranted.
+❗ Prediction **does not match** ground truth — possible borderline or misclassified case.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_19_pred2_true2.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_19_pred2_true2.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Obstructive' | Ground truth: 'Obstructive'
+🔍 Model attention focused in the **lower-left** region of the spectrogram.
+📌 This focus likely highlights **prolonged expiratory airflow**, suggestive of wheezing or airway narrowing — characteristics of obstructive lung diseases such as **COPD** or **asthma**.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_20_pred2_true2.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_20_pred2_true2.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Obstructive' | Ground truth: 'Obstructive'
+🔍 Model attention focused in the **lower-left** region of the spectrogram.
+📌 This focus likely highlights **prolonged expiratory airflow**, suggestive of wheezing or airway narrowing — characteristics of obstructive lung diseases such as **COPD** or **asthma**.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_21_pred1_true1.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_21_pred1_true1.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Infectious' | Ground truth: 'Infectious'
+🔍 Model attention focused in the **lower-left** region of the spectrogram.
+⚠️ The heatmap suggests **non-specific or ambiguous focus**. Further manual review might be warranted.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_22_pred1_true1.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_22_pred1_true1.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Infectious' | Ground truth: 'Infectious'
+🔍 Model attention focused in the **middle-left** region of the spectrogram.
+⚠️ The heatmap suggests **non-specific or ambiguous focus**. Further manual review might be warranted.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_23_pred2_true2.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_23_pred2_true2.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Obstructive' | Ground truth: 'Obstructive'
+🔍 Model attention focused in the **lower-left** region of the spectrogram.
+📌 This focus likely highlights **prolonged expiratory airflow**, suggestive of wheezing or airway narrowing — characteristics of obstructive lung diseases such as **COPD** or **asthma**.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_24_pred2_true2.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_24_pred2_true2.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Obstructive' | Ground truth: 'Obstructive'
+🔍 Model attention focused in the **lower-left** region of the spectrogram.
+📌 This focus likely highlights **prolonged expiratory airflow**, suggestive of wheezing or airway narrowing — characteristics of obstructive lung diseases such as **COPD** or **asthma**.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_25_pred2_true2.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_25_pred2_true2.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Obstructive' | Ground truth: 'Obstructive'
+🔍 Model attention focused in the **lower-left** region of the spectrogram.
+📌 This focus likely highlights **prolonged expiratory airflow**, suggestive of wheezing or airway narrowing — characteristics of obstructive lung diseases such as **COPD** or **asthma**.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_26_pred2_true2.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_26_pred2_true2.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Obstructive' | Ground truth: 'Obstructive'
+🔍 Model attention focused in the **lower-right** region of the spectrogram.
+📌 This focus likely highlights **prolonged expiratory airflow**, suggestive of wheezing or airway narrowing — characteristics of obstructive lung diseases such as **COPD** or **asthma**.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_27_pred2_true2.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_27_pred2_true2.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Obstructive' | Ground truth: 'Obstructive'
+🔍 Model attention focused in the **lower-left** region of the spectrogram.
+📌 This focus likely highlights **prolonged expiratory airflow**, suggestive of wheezing or airway narrowing — characteristics of obstructive lung diseases such as **COPD** or **asthma**.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_28_pred2_true2.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_28_pred2_true2.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Obstructive' | Ground truth: 'Obstructive'
+🔍 Model attention focused in the **lower-left** region of the spectrogram.
+📌 This focus likely highlights **prolonged expiratory airflow**, suggestive of wheezing or airway narrowing — characteristics of obstructive lung diseases such as **COPD** or **asthma**.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_29_pred0_true1.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_29_pred0_true1.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Healthy' | Ground truth: 'Infectious'
+🔍 Model attention focused in the **middle-left** region of the spectrogram.
+⚠️ The heatmap suggests **non-specific or ambiguous focus**. Further manual review might be warranted.
+❗ Prediction **does not match** ground truth — possible borderline or misclassified case.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_30_pred2_true2.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_30_pred2_true2.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Obstructive' | Ground truth: 'Obstructive'
+🔍 Model attention focused in the **lower-left** region of the spectrogram.
+📌 This focus likely highlights **prolonged expiratory airflow**, suggestive of wheezing or airway narrowing — characteristics of obstructive lung diseases such as **COPD** or **asthma**.
+</pre>
+        </div>
+        
+        <div class="entry">
+            <h2>gradcam_outputs\combined_gradcam_31_pred2_true2.png</h2>
+            <img src="gradcam_outputs\combined_gradcam_31_pred2_true2.png" alt="GradCAM Image">
+            <pre>🧠 Prediction: 'Obstructive' | Ground truth: 'Obstructive'
+🔍 Model attention focused in the **lower-left** region of the spectrogram.
+📌 This focus likely highlights **prolonged expiratory airflow**, suggestive of wheezing or airway narrowing — characteristics of obstructive lung diseases such as **COPD** or **asthma**.
+</pre>
+        </div>
+        
+    </body>
+    </html>
+    
